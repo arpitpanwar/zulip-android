@@ -127,6 +127,7 @@ public class ZulipApp extends Application {
         if (getEmail().equals("iago@zulip.com")) {
             return "http://10.0.2.2:9991/api/";
         }
+	//Need to return custom URI here
         return "https://api.zulip.com/";
     }
 
